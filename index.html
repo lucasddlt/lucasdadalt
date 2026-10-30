@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lucas Da Dalt</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="ePortfolio of Lucas Da Dalt, engineering student in fluid mechanics at INP-ENSEEIHT (Toulouse INP): applied mathematics, fluid mechanics, aerospace and astrophysics, science and policy.">
+<meta name="author" content="Lucas Da Dalt">
+<meta property="og:title" content="Lucas Da Dalt — ePortfolio">
+<meta property="og:description" content="Engineering student at INP-ENSEEIHT. Applied mathematics · Fluid mechanics · Aerospace & astrophysics · Science & policy.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2 13.2C5.5 7.6 15 7.4 22 12.4 15.4 13.6 8.4 14.6 2 13.2Z' fill='%23cf0a1f'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);if(localStorage.getItem("lang")==="fr")document.documentElement.setAttribute("data-lang","fr")}catch(e){}</script>
+<script defer src="assets/js/main.js"></script>
+<script defer src="assets/js/physics.js"></script>
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en">Skip to content</span><span data-l="fr">Aller au contenu</span></a>
+
+<!-- ===================== TOP BAR: the 6 sections ===================== -->
+<header class="bar">
+  <div class="wrap bar-inner">
+    <a class="brand" href="#welcome" aria-label="Lucas Da Dalt, top of page">
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 13.2C5.5 7.6 15 7.4 22 12.4 15.4 13.6 8.4 14.6 2 13.2Z" fill="var(--red)"/></svg>
+      Lucas Da Dalt
+    </a>
+    <nav class="tabs" aria-label="Sections">
+      <a class="tab" href="#welcome"><span data-l="en">Welcome</span><span data-l="fr">Accueil</span></a>
+      <a class="tab" href="#engineering"><span data-l="en">Engineering course</span><span data-l="fr">Parcours d'ingénieur</span></a>
+      <a class="tab" href="#mobility"><span data-l="en">International mobility</span><span data-l="fr">Mobilité internationale</span></a>
+      <a class="tab" href="#engagement"><span data-l="en">Sustainability &amp; civic engagement</span><span data-l="fr">Développement durable &amp; engagement</span></a>
+      <a class="tab" href="#activities"><span data-l="en">Sport &amp; other activities</span><span data-l="fr">Sport &amp; autres activités</span></a>
+      <a class="tab tab-career" href="#career"><span data-l="en">Career development</span><span data-l="fr">Développement de carrière</span></a>
+    </nav>
+    <div class="bar-tools">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+      </div>
+      <button class="theme" type="button" data-theme-toggle aria-label="Switch light or dark theme">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+</header>
+
+<main id="main">
+
+<!-- ============================ 01 WELCOME ============================ -->
+<section class="section" id="welcome" aria-labelledby="h-welcome">
+  <div class="band band-hero">
+    <canvas data-scene="joukowski" aria-hidden="true"></canvas>
+    <div class="band-veil" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <div class="band-copy">
+        <div class="hero-id">
+          <div class="hero-photo" aria-hidden="true">LD<img src="assets/img/photo.jpg" alt="" onerror="this.remove()"></div>
+          <p class="eyebrow">INP-ENSEEIHT · Toulouse INP<br><b>Fluid mechanics</b> · 2026–2029</p>
+        </div>
+        <h1 id="h-welcome" class="name"><span>Lucas</span><span>Da Dalt</span></h1>
+        <p class="lede">
+          <span data-l="en">Engineering student. I turn mathematics into physical insight, from Fourier analysis to fluid flows.</span>
+          <span data-l="fr">Élève ingénieur. Je transforme les mathématiques en compréhension physique, de Fourier aux écoulements.</span>
+        </p>
+        <div class="chips" aria-label="Keywords">
+          <span class="chip"><span data-l="en">Applied mathematics</span><span data-l="fr">Mathématiques appliquées</span></span>
+          <span class="chip"><span data-l="en">Fluid mechanics</span><span data-l="fr">Mécanique des fluides</span></span>
+          <span class="chip"><span data-l="en">Aerospace &amp; astrophysics</span><span data-l="fr">Aérospatial &amp; astrophysique</span></span>
+          <span class="chip"><span data-l="en">Science &amp; policy</span><span data-l="fr">Sciences &amp; décision publique</span></span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-red" href="#career"><span data-l="en">Career Project</span><span data-l="fr">Projet professionnel</span></a>
+          <a class="btn btn-soft" data-link="cvEN" data-link-fr="cvFR" href="#"><span data-l="en">Download CV</span><span data-l="fr">Télécharger le CV</span></a>
+          <a class="btn btn-line" data-link="linkedinEN" data-link-fr="linkedinFR" href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div class="band-caption">
+        <span><span data-l="en">Potential flow past a Joukowski airfoil · Laplace equation ∇²φ = 0</span><span data-l="fr">Écoulement potentiel autour d'un profil de Joukowski · équation de Laplace ∇²φ = 0</span></span>
+        <span class="seg" role="group" aria-label="Angle of attack">
+          <span class="seg-label">α</span>
+          <button type="button" data-mode="0" aria-pressed="false">0°</button>
+          <button type="button" data-mode="6" aria-pressed="true">6°</button>
+          <button type="button" data-mode="12" aria-pressed="false">12°</button>
+        </span>
+        <span>Γ = <span data-out="gamma">–</span> <span data-l="en">(Kutta condition)</span><span data-l="fr">(condition de Kutta)</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap section-body">
+    <div class="block reveal">
+      <div class="glance">
+        <a class="tile" href="#career-video">
+          <svg class="tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg>
+          <h3><span data-l="en">Video pitch</span><span data-l="fr">Pitch vidéo</span></h3>
+          <p><span data-l="en">2–3 minutes in English.</span><span data-l="fr">2 à 3 minutes en anglais.</span></p>
+        </a>
+        <div class="tile">
+          <svg class="tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 2.5h8l4 4v15H6z"/><path d="M14 2.5v4h4M9 12h6M9 15.5h6M9 8.5h2"/></svg>
+          <h3>CV</h3>
+          <div class="row">
+            <a class="btn btn-line btn-sm" data-link="cvEN" href="#">English</a>
+            <a class="btn btn-line btn-sm" data-link="cvFR" href="#">Français</a>
+          </div>
+        </div>
+        <div class="tile">
+          <svg class="tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="4"/><path d="M7.5 10v6.5M7.5 7.2v.1M11 16.5V10m0 3.2c0-1.8 1.1-3.2 2.8-3.2s2.7 1.2 2.7 3.2v3.3"/></svg>
+          <h3>LinkedIn</h3>
+          <div class="row">
+            <a class="btn btn-line btn-sm" data-link="linkedinEN" href="#">English</a>
+            <a class="btn btn-line btn-sm" data-link="linkedinFR" href="#">Français</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="npf reveal">
+      <div>
+        <p class="eyebrow"><b>Now</b></p>
+        <h3><span data-l="en">Fluid mechanics at ENSEEIHT</span><span data-l="fr">Mécanique des fluides à l'N7</span></h3>
+        <p><span data-l="en">First year of the engineering degree, MF2E department.</span><span data-l="fr">Première année du cycle ingénieur, département MF2E.</span></p>
+      </div>
+      <div>
+        <p class="eyebrow"><b>Past</b></p>
+        <h3><span data-l="en">Three years of CPGE MPI</span><span data-l="fr">Trois ans de CPGE MPI</span></h3>
+        <p><span data-l="en">Maths, physics and computer science; two research projects on Fourier analysis.</span><span data-l="fr">Maths, physique, informatique ; deux projets de recherche sur Fourier.</span></p>
+      </div>
+      <div>
+        <p class="eyebrow"><b>Future</b></p>
+        <h3><span data-l="en">Aerospace &amp; astrophysics</span><span data-l="fr">Aérospatial &amp; astrophysique</span></h3>
+        <p><span data-l="en">A research path in Toulouse, or science policy with Sciences Po.</span><span data-l="fr">Une voie de recherche à Toulouse, ou la décision publique avec Sciences Po.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== 02 ENGINEERING COURSE ======================== -->
+<section class="section" id="engineering" aria-labelledby="h-engineering">
+  <div class="band">
+    <canvas data-scene="stokes" aria-hidden="true"></canvas>
+    <div class="band-veil" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <div class="band-copy reveal">
+        <p class="eyebrow"><span class="idx">02 / 06</span> <span data-l="en">Engineering course</span><span data-l="fr">Parcours d'ingénieur</span></p>
+        <h2 id="h-engineering"><span data-l="en">From preparatory classes to fluid mechanics.</span><span data-l="fr">De la prépa à la mécanique des fluides.</span></h2>
+        <p class="lede"><span data-l="en">Mathematics applied to physical problems: what I enjoyed in prépa, and what ENSEEIHT teaches every day.</span><span data-l="fr">Les mathématiques appliquées à la physique : ce que j'aimais en prépa, et ce que l'N7 enseigne chaque jour.</span></p>
+      </div>
+      <div class="band-caption">
+        <span><span data-l="en">Flow past a sphere</span><span data-l="fr">Écoulement autour d'une sphère</span></span>
+        <span class="seg" role="group" aria-label="Flow model">
+          <button type="button" data-mode="stokes" aria-pressed="true">Stokes, Re ≪ 1</button>
+          <button type="button" data-mode="potential" aria-pressed="false"><span data-l="en">Potential</span><span data-l="fr">Potentiel</span></button>
+        </span>
+        <span><span data-l="en">drag</span><span data-l="fr">traînée</span> F = <span data-out="drag">6πμaU</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap section-body">
+    <div class="block reveal">
+      <div class="block-head"><h3 class="h3"><span data-l="en">Education</span><span data-l="fr">Formation</span></h3></div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date"><span class="now-dot"></span>2026 – 2029</div>
+          <div class="tl-body">
+            <h4><span data-l="en">Engineering degree, Fluid Mechanics, Energy &amp; Environment (MF2E)</span><span data-l="fr">Diplôme d'ingénieur, Mécanique des fluides, énergétique et environnement (MF2E)</span></h4>
+            <p class="where">INP-ENSEEIHT, Toulouse INP</p>
+            <p><span data-l="en">A selective "Grande École" conferring a master's-level degree. MF2E prepares engineers for energy, environment, aeronautics and space.</span><span data-l="fr">Grande École conférant le grade de master. MF2E forme des ingénieurs pour l'énergie, l'environnement, l'aéronautique et le spatial.</span></p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">2023 – 2026</div>
+          <div class="tl-body">
+            <h4><span data-l="en">CPGE MPI, preparatory classes in Mathematics, Physics, Computer Science</span><span data-l="fr">CPGE MPI, Mathématiques, Physique, Informatique</span></h4>
+            <p class="where">Lycée Camille Guérin, Poitiers · Lycée Michel Montaigne, Bordeaux</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">2023</div>
+          <div class="tl-body">
+            <h4><span data-l="en">Baccalauréat, with high honours</span><span data-l="fr">Baccalauréat, mention Bien</span></h4>
+            <p class="where"><span data-l="en">Mathematics, Physics-Chemistry, Computer Science (NSI)</span><span data-l="fr">Mathématiques, Physique-Chimie, NSI</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block reveal">
+      <div class="block-head">
+        <p class="eyebrow"><span data-l="en">Semesters 5 – 6 · 2026 – 2027</span><span data-l="fr">Semestres 5 – 6 · 2026 – 2027</span></p>
+        <h3 class="h3"><span data-l="en">What I study this year</span><span data-l="fr">Ce que j'étudie cette année</span></h3>
+      </div>
+      <div class="courses">
+        <span class="course"><span data-l="en">Fluid mechanics 1 &amp; 2</span><span data-l="fr">Mécanique des fluides 1 et 2</span></span>
+        <span class="course"><span data-l="en">Thermodynamics</span><span data-l="fr">Thermodynamique</span></span>
+        <span class="course"><span data-l="en">Linear elasticity</span><span data-l="fr">Élasticité linéaire</span></span>
+        <span class="course"><span data-l="en">Mathematics</span><span data-l="fr">Mathématiques</span></span>
+        <span class="course"><span data-l="en">Scientific computing</span><span data-l="fr">Calcul scientifique</span></span>
+        <span class="course"><span data-l="en">Potential &amp; low-Reynolds flows (S6)</span><span data-l="fr">Écoulements potentiels et à bas Reynolds (S6)</span></span>
+        <span class="course"><span data-l="en">Signal &amp; control (S6)</span><span data-l="fr">Signal et automatique (S6)</span></span>
+      </div>
+    </div>
+
+    <div class="block reveal" id="projects">
+      <div class="block-head">
+        <p class="eyebrow"><span data-l="en">Research projects (TIPE)</span><span data-l="fr">Projets de recherche (TIPE)</span></p>
+        <h3 class="h3"><span data-l="en">Two projects, one tool: the Fourier transform</span><span data-l="fr">Deux projets, un outil : la transformée de Fourier</span></h3>
+      </div>
+      <div class="seg-ctl" role="tablist" data-seg aria-label="Projects">
+        <button type="button" role="tab" id="t-tipe2" aria-controls="p-tipe2" aria-selected="true"><span data-l="en">Anomaly detection</span><span data-l="fr">Détection d'anomalies</span></button>
+        <button type="button" role="tab" id="t-tipe1" aria-controls="p-tipe1" aria-selected="false" tabindex="-1"><span data-l="en">Fast Fourier transform</span><span data-l="fr">Transformée de Fourier rapide</span></button>
+        <button type="button" role="tab" id="t-n7" aria-controls="p-n7" aria-selected="false" tabindex="-1"><span data-l="en">ENSEEIHT projects</span><span data-l="fr">Projets N7</span></button>
+      </div>
+
+      <div class="panel" id="p-tipe2" role="tabpanel" aria-labelledby="t-tipe2">
+        <div class="project-title">
+          <p class="eyebrow">TIPE · 2025 – 2026</p>
+          <h4><span data-l="en">Anomaly detection in time series</span><span data-l="fr">Détection d'anomalies dans les séries temporelles</span></h4>
+        </div>
+        <div class="metric">
+          <div><b>12 000</b><span><span data-l="en">normal windows in the reference model</span><span data-l="fr">fenêtres normales dans le modèle de référence</span></span></div>
+          <div><b>100 %</b><span><span data-l="en">of labelled anomalies found on the Apple series</span><span data-l="fr">des anomalies trouvées sur la série Apple</span></span></div>
+        </div>
+        <dl class="facts">
+          <div class="fact"><dt><span data-l="en">Problem</span><span data-l="fr">Problème</span></dt><dd><span data-l="en">Flag abnormal behaviour automatically in real data: 10 series of the NAB benchmark, 15,000 points each.</span><span data-l="fr">Repérer automatiquement un comportement anormal dans des données réelles : 10 séries du benchmark NAB, 15 000 points chacune.</span></dd></div>
+          <div class="fact"><dt><span data-l="en">Method</span><span data-l="fr">Méthode</span></dt><dd><span data-l="en">Sliding statistics with a Chebyshev bound, then a spectral distance justified by the Wiener–Khinchin theorem, then localisation by window intersection.</span><span data-l="fr">Statistiques glissantes avec une borne de Bienaymé-Tchebychev, puis une distance spectrale justifiée par le théorème de Wiener-Khinchin, puis une localisation par intersection de fenêtres.</span></dd></div>
+          <div class="fact"><dt><span data-l="en">Lesson</span><span data-l="fr">Enseignement</span></dt><dd><span data-l="en">Slow drifts escape both tests; comparing autocorrelations is the next step.</span><span data-l="fr">Les dérives lentes échappent aux deux tests ; comparer les autocorrélations est l'étape suivante.</span></dd></div>
+          <div class="fact"><dt><span data-l="en">Tools</span><span data-l="fr">Outils</span></dt><dd><div class="tags"><span class="tag">Python</span><span class="tag">NumPy · SciPy</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span></div></dd></div>
+        </dl>
+      </div>
+
+      <div class="panel" id="p-tipe1" role="tabpanel" aria-labelledby="t-tipe1" hidden>
+        <div class="project-title">
+          <p class="eyebrow">TIPE · 2024 – 2025</p>
+          <h4><span data-l="en">Processing any signal with the fast Fourier transform</span><span data-l="fr">Traiter tout signal avec la transformée de Fourier rapide</span></h4>
+        </div>
+        <div class="metric">
+          <div><b>10<sup>6</sup> → 10<sup>4</sup></b><span><span data-l="en">operations for 1,024 points</span><span data-l="fr">opérations pour 1 024 points</span></span></div>
+          <div><b>O(N log N)</b><span><span data-l="en">for convolution and the fractional transform</span><span data-l="fr">pour la convolution et la transformée fractionnaire</span></span></div>
+        </div>
+        <dl class="facts">
+          <div class="fact"><dt><span data-l="en">Problem</span><span data-l="fr">Problème</span></dt><dd><span data-l="en">Analyse any sampled signal as fast as possible, from the proof to the code.</span><span data-l="fr">Analyser tout signal échantillonné le plus vite possible, de la preuve au code.</span></dd></div>
+          <div class="fact"><dt><span data-l="en">Method</span><span data-l="fr">Méthode</span></dt><dd><span data-l="en">Orthogonal exponential basis of ℓ²(ℤₙ); naive DFT in C, recursive FFT in OCaml, cost proved with the master theorem; convolution theorem.</span><span data-l="fr">Base orthogonale des exponentielles de ℓ²(ℤₙ) ; DFT naïve en C, FFT récursive en OCaml, coût démontré par le théorème maître ; théorème de convolution.</span></dd></div>
+          <div class="fact"><dt><span data-l="en">Lesson</span><span data-l="fr">Enseignement</span></dt><dd><span data-l="en">The FFT also powers spectral simulations of turbulence: a direct link to my field.</span><span data-l="fr">La FFT est aussi au cœur des simulations spectrales de la turbulence : un lien direct avec mon domaine.</span></dd></div>
+          <div class="fact"><dt><span data-l="en">Tools</span><span data-l="fr">Outils</span></dt><dd><div class="tags"><span class="tag">C</span><span class="tag">OCaml</span><span class="tag">Python</span><span class="tag">LaTeX</span></div></dd></div>
+        </dl>
+      </div>
+
+      <div class="panel" id="p-n7" role="tabpanel" aria-labelledby="t-n7" hidden>
+        <p class="note"><span data-l="en">Projects from the engineering curriculum appear here each semester, starting with the 2nd-year research project.</span><span data-l="fr">Les projets du cycle ingénieur apparaîtront ici chaque semestre, à commencer par le projet recherche de 2ᵉ année.</span></p>
+      </div>
+    </div>
+
+    <div class="block reveal">
+      <div class="block-head">
+        <p class="eyebrow"><span data-l="en">Next semesters</span><span data-l="fr">Semestres suivants</span></p>
+        <h3 class="h3"><span data-l="en">My route to aerospace within MF2E</span><span data-l="fr">Mon chemin vers l'aérospatial au sein de MF2E</span></h3>
+      </div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-date">2A · 2027 – 28</div><div class="tl-body"><h4><span data-l="en">Energy &amp; processes track</span><span data-l="fr">Parcours Énergie et procédés</span></h4><p><span data-l="en">Aerodynamics, gas turbines and a research project.</span><span data-l="fr">Aérodynamique, turbomachines à gaz et projet recherche.</span></p></div></div>
+        <div class="tl-item"><div class="tl-date">3A · 2028 – 29</div><div class="tl-body"><h4><span data-l="en">FEP-AERO or numerical modelling (MSN) option</span><span data-l="fr">Option FEP-AERO ou modélisation numérique (MSN)</span></h4><p><span data-l="en">With the research master DET in double degree, shared with ISAE-SUPAERO students and partly taught on its campus.</span><span data-l="fr">Avec le master recherche DET en double diplôme, suivi aux côtés des élèves d'ISAE-SUPAERO et en partie enseigné sur son campus.</span></p></div></div>
+      </div>
+      <p class="src"><span data-l="en">Sources:</span><span data-l="fr">Sources :</span> <a href="https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-mf2e.html" target="_blank" rel="noopener">ENSEEIHT MF2E</a> · <a href="https://www.enseeiht.fr/fr/formation/masters/mecanique-energetique-et-procedes-det.html" target="_blank" rel="noopener">Master DET</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 03 INTERNATIONAL MOBILITY ======================= -->
+<section class="section" id="mobility" aria-labelledby="h-mobility">
+  <div class="band">
+    <canvas data-scene="karman" aria-hidden="true"></canvas>
+    <div class="band-veil" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <div class="band-copy reveal">
+        <p class="eyebrow"><span class="idx">03 / 06</span> <span data-l="en">International mobility</span><span data-l="fr">Mobilité internationale</span></p>
+        <h2 id="h-mobility"><span data-l="en">Three projects abroad, one direction.</span><span data-l="fr">Trois projets à l'étranger, une direction.</span></h2>
+        <p class="lede"><span data-l="en">At least 17 weeks abroad, chosen to follow my three role models.</span><span data-l="fr">Au moins 17 semaines à l'étranger, choisies sur les traces de mes trois rôles modèles.</span></p>
+      </div>
+      <div class="band-caption">
+        <span><span data-l="en">Navier–Stokes, computed live (lattice Boltzmann)</span><span data-l="fr">Navier-Stokes, calculé en direct (Boltzmann sur réseau)</span></span>
+        <span><span data-l="en">cylinder wake, Re = </span><span data-l="fr">sillage d'un cylindre, Re = </span><span data-out="re">80</span></span>
+        <span><span data-l="en">von Kármán vortex street</span><span data-l="fr">allée de von Kármán</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap section-body">
+    <div class="cards reveal">
+      <article class="card">
+        <span class="badge"><span data-l="en">Semester · Plans A &amp; C</span><span data-l="fr">Semestre · Plans A et C</span></span>
+        <h3>Georgia Tech</h3>
+        <p class="sub"><span data-l="en">Dual master's in Mechanical Engineering · Atlanta, USA</span><span data-l="fr">Double diplôme en génie mécanique · Atlanta, États-Unis</span></p>
+        <dl class="kv">
+          <div><dt><span data-l="en">When</span><span data-l="fr">Quand</span></dt><dd><span data-l="en">3rd year, from autumn 2028</span><span data-l="fr">3ᵉ année, dès l'automne 2028</span></dd></div>
+          <div><dt><span data-l="en">Why</span><span data-l="fr">Pourquoi</span></dt><dd><span data-l="en">An ENSEEIHT dual-degree partner, strong in fluids and propulsion. Poinsot and Prost both did research in the US early.</span><span data-l="fr">Partenaire de double diplôme de l'N7, fort en fluides et propulsion. Poinsot et Prost ont fait tôt de la recherche aux États-Unis.</span></dd></div>
+          <div><dt><span data-l="en">Requirements</span><span data-l="fr">Prérequis</span></dt><dd><span data-l="en">Good ranking, certified English, application in 2nd year.</span><span data-l="fr">Bon classement, anglais certifié, candidature en 2ᵉ année.</span></dd></div>
+        </dl>
+        <p class="src"><a href="https://www.me.gatech.edu/internationalprograms" target="_blank" rel="noopener">Georgia Tech ME</a></p>
+      </article>
+      <article class="card">
+        <span class="badge"><span data-l="en">Research internship · Plan A</span><span data-l="fr">Stage de recherche · Plan A</span></span>
+        <h3>von Karman Institute</h3>
+        <p class="sub"><span data-l="en">Short Training Programme in fluid dynamics · Belgium</span><span data-l="fr">Short Training Programme en dynamique des fluides · Belgique</span></p>
+        <dl class="kv">
+          <div><dt><span data-l="en">When</span><span data-l="fr">Quand</span></dt><dd><span data-l="en">End-of-studies internship, spring 2029 (3–6 months)</span><span data-l="fr">Stage de fin d'études, printemps 2029 (3 à 6 mois)</span></dd></div>
+          <div><dt><span data-l="en">Why</span><span data-l="fr">Pourquoi</span></dt><dd><span data-l="en">Research in aeronautics, turbomachinery or aeroacoustics: the step before a PhD, as in Poinsot's path.</span><span data-l="fr">De la recherche en aéronautique, turbomachines ou aéroacoustique : l'étape avant une thèse, comme chez Poinsot.</span></dd></div>
+          <div><dt><span data-l="en">Requirements</span><span data-l="fr">Prérequis</span></dt><dd><span data-l="en">Free, open to French students; two references; apply 4 months ahead.</span><span data-l="fr">Gratuit, ouvert aux étudiants français ; deux références ; candidater 4 mois avant.</span></dd></div>
+        </dl>
+        <p class="src"><a href="https://www.vki.ac.be/index.php/short-training-program" target="_blank" rel="noopener">VKI</a></p>
+      </article>
+      <article class="card">
+        <span class="badge"><span data-l="en">Agency internship · Plan B</span><span data-l="fr">Stage en agence · Plan B</span></span>
+        <h3><span data-l="en">European Space Agency</span><span data-l="fr">Agence spatiale européenne</span></h3>
+        <p class="sub"><span data-l="en">Student internship, ESTEC · Noordwijk, Netherlands</span><span data-l="fr">Stage étudiant, ESTEC · Noordwijk, Pays-Bas</span></p>
+        <dl class="kv">
+          <div><dt><span data-l="en">When</span><span data-l="fr">Quand</span></dt><dd><span data-l="en">Final year of a master's, 3–6 months; call each November</span><span data-l="fr">Dernière année de master, 3 à 6 mois ; appel chaque novembre</span></dd></div>
+          <div><dt><span data-l="en">Why</span><span data-l="fr">Pourquoi</span></dt><dd><span data-l="en">Where Naja built her career and Prost joined the astronaut reserve: see how space programmes are decided.</span><span data-l="fr">Là où Naja a fait carrière et où Prost a rejoint la réserve d'astronautes : voir comment se décident les programmes spatiaux.</span></dd></div>
+          <div><dt><span data-l="en">Requirements</span><span data-l="fr">Prérequis</span></dt><dd><span data-l="en">Citizen of an ESA member state, enrolled in a master's.</span><span data-l="fr">Ressortissant d'un État membre de l'ESA, inscrit en master.</span></dd></div>
+        </dl>
+        <p class="src"><a href="https://www.esa.int/About_Us/Careers_at_ESA/Student_Internships2" target="_blank" rel="noopener">ESA</a></p>
+      </article>
+    </div>
+
+    <div class="block reveal">
+      <div class="split">
+        <h3 class="h3"><span data-l="en">Languages</span><span data-l="fr">Langues</span></h3>
+        <div class="langs">
+          <div><b><span data-l="en">French</span><span data-l="fr">Français</span></b><span><span data-l="en">native</span><span data-l="fr">langue maternelle</span></span></div>
+          <div><b><span data-l="en">English</span><span data-l="fr">Anglais</span></b><span><span data-l="en">B2, aiming for a certified C1 before applying abroad</span><span data-l="fr">B2, objectif C1 certifié avant de candidater à l'étranger</span></span></div>
+        </div>
+      </div>
+      <p class="src"><span data-l="en">Rule:</span><span data-l="fr">Règle :</span> <a href="https://www.enseeiht.fr/fr/international/mobilite-sortante.html" target="_blank" rel="noopener">ENSEEIHT, Mobilité sortante</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================== 04 SUSTAINABILITY & CIVIC ENGAGEMENT ================== -->
+<section class="section" id="engagement" aria-labelledby="h-engagement">
+  <div class="band">
+    <canvas data-scene="benard" aria-hidden="true"></canvas>
+    <div class="band-veil" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <div class="band-copy reveal">
+        <p class="eyebrow"><span class="idx">04 / 06</span> <span data-l="en">Sustainability &amp; civic engagement</span><span data-l="fr">Développement durable &amp; engagement citoyen</span></p>
+        <h2 id="h-engagement"><span data-l="en">Helping when it matters.</span><span data-l="fr">Aider quand il le faut.</span></h2>
+        <p class="lede"><span data-l="en">A volunteering experience, and a field with a climate stake.</span><span data-l="fr">Un engagement bénévole, et un domaine face à l'enjeu climatique.</span></p>
+      </div>
+      <div class="band-caption">
+        <span><span data-l="en">Rayleigh–Bénard convection, heated from below</span><span data-l="fr">Convection de Rayleigh-Bénard, chauffée par le bas</span></span>
+        <span>Ra &gt; Ra<sub>c</sub> ≈ 1708 · k<sub>c</sub> ≈ 3.12</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap section-body">
+    <div class="block reveal">
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date"><span data-l="en">July 2026</span><span data-l="fr">Juillet 2026</span></div>
+          <div class="tl-body">
+            <h4><span data-l="en">Volunteer, wildfire reception centre</span><span data-l="fr">Bénévole, centre d'accueil des sinistrés</span></h4>
+            <p class="where">Parc des Expositions, Bordeaux</p>
+            <p><span data-l="en">During the Gironde wildfires, I welcomed and guided evacuated residents at Bordeaux's emergency reception centre.</span><span data-l="fr">Pendant les incendies de Gironde, j'ai accueilli et orienté les habitants évacués au centre d'accueil d'urgence de Bordeaux.</span></p>
+            <p class="src"><a href="https://www.lalibre.be/dernieres-depeches/2026/07/25/feux-de-foret-incendie-en-gironde-environ-3500-evacues-heberges-au-centre-daccueil-de-bordeaux-RAIQH4JDXNBB5EPEKSSBIW3XOM/" target="_blank" rel="noopener">La Libre / AFP, 25 July 2026</a></p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date"><span data-l="en">22 Oct. 2026</span><span data-l="fr">22 oct. 2026</span></div>
+          <div class="tl-body">
+            <h4><span data-l="en">Octobre Rose cross-country race, inter-INP</span><span data-l="fr">Cross Octobre Rose inter-INP</span></h4>
+            <p><span data-l="en">Inter-school race for breast-cancer awareness, with the ENSEEIHT Run &amp; Ride group.</span><span data-l="fr">Course inter-écoles de sensibilisation au cancer du sein, avec le groupe Run &amp; Ride de l'N7.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block reveal">
+      <div class="split">
+        <h3 class="h3"><span data-l="en">Why it concerns my field</span><span data-l="fr">Pourquoi cela concerne mon domaine</span></h3>
+        <div class="prose">
+          <p><span data-l="en">Cutting aviation's climate impact is largely a fluid-mechanics problem: less drag, better engines, clean hydrogen combustion.</span><span data-l="fr">Réduire l'impact climatique de l'aviation est largement un problème de mécanique des fluides : moins de traînée, de meilleurs moteurs, une combustion propre de l'hydrogène.</span></p>
+          <p><span data-l="en"><strong>Next step:</strong> join an ENSEEIHT ecological-transition initiative (<a href="https://www.enseeiht.fr/fr/l-enseeiht/teddn7.html" target="_blank" rel="noopener">TEDDn7</a>) this year.</span><span data-l="fr"><strong>Prochaine étape :</strong> rejoindre cette année une initiative de transition écologique de l'N7 (<a href="https://www.enseeiht.fr/fr/l-enseeiht/teddn7.html" target="_blank" rel="noopener">TEDDn7</a>).</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 05 SPORT & OTHER ACTIVITIES ======================= -->
+<section class="section" id="activities" aria-labelledby="h-activities">
+  <div class="band">
+    <canvas data-scene="waves" aria-hidden="true"></canvas>
+    <div class="band-veil" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <div class="band-copy reveal">
+        <p class="eyebrow"><span class="idx">05 / 06</span> <span data-l="en">Sport &amp; other activities</span><span data-l="fr">Sport &amp; autres activités</span></p>
+        <h2 id="h-activities"><span data-l="en">Running, music and reading.</span><span data-l="fr">Course à pied, musique et lecture.</span></h2>
+        <p class="lede"><span data-l="en">Regular practice, long before preparatory classes.</span><span data-l="fr">La pratique régulière, bien avant la prépa.</span></p>
+      </div>
+      <div class="band-caption">
+        <span><span data-l="en">Plucked string · wave equation</span><span data-l="fr">Corde pincée · équation des ondes</span> ∂²u/∂t² = c² ∂²u/∂x²</span>
+        <span><span data-l="en">harmonics</span><span data-l="fr">harmoniques</span> fₙ = n·c / 2L</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap section-body">
+    <div class="skills reveal">
+      <div class="skill"><p class="eyebrow">Sport</p><h4><span data-l="en">Running</span><span data-l="fr">Course à pied</span></h4><p><span data-l="en">Run &amp; Ride discipline at ENSEEIHT; inter-INP Octobre Rose cross-country race, October 2026.</span><span data-l="fr">Discipline Run &amp; Ride de l'N7 ; cross Octobre Rose inter-INP, octobre 2026.</span></p></div>
+      <div class="skill"><p class="eyebrow"><span data-l="en">Music</span><span data-l="fr">Musique</span></p><h4><span data-l="en">Trumpet, piano, music theory</span><span data-l="fr">Trompette, piano, solfège</span></h4><p><span data-l="en">Trumpet since 2026; 7 years of piano; music theory diploma, level N3, École Saint-Bruno, Bordeaux.</span><span data-l="fr">Trompette depuis 2026 ; 7 ans de piano ; formation musicale niveau N3, École Saint-Bruno, Bordeaux.</span></p></div>
+      <div class="skill"><p class="eyebrow">Culture</p><h4><span data-l="en">Reading &amp; music of every genre</span><span data-l="fr">Lecture et musique de tous genres</span></h4><p><span data-l="en">From classical to contemporary.</span><span data-l="fr">Du classique au contemporain.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== 06 CAREER DEVELOPMENT ======================== -->
+<section class="section" id="career" aria-labelledby="h-career">
+  <div class="band">
+    <canvas data-scene="orbits" aria-hidden="true"></canvas>
+    <div class="band-veil" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <div class="band-copy reveal">
+        <p class="eyebrow"><span class="idx">06 / 06</span> <span data-l="en">Career development</span><span data-l="fr">Développement de carrière</span></p>
+        <h2 id="h-career">Career Project</h2>
+        <p class="lede"><span data-l="en">My goal, my pitch, my documents, my role models and my mobility plans.</span><span data-l="fr">Mon objectif, mon pitch, mes documents, mes rôles modèles et ma mobilité.</span></p>
+      </div>
+      <div class="band-caption">
+        <span><span data-l="en">Hohmann transfer Earth → Mars · Kepler</span><span data-l="fr">Transfert de Hohmann Terre → Mars · Kepler</span> T² ∝ a³</span>
+        <span>a = 1.26 AU · ≈ <span data-out="days">259</span> <span data-l="en">days</span><span data-l="fr">jours</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap section-body">
+    <div class="cp-banner reveal">
+      <p class="eyebrow">Career Project · <span data-l="en">value proposition</span><span data-l="fr">proposition de valeur</span></p>
+      <p class="cp-uvp"><span data-l="en">I bring the rigour of applied mathematics to fluid mechanics, to work on aerospace and astrophysics research, and on the decisions around it.</span><span data-l="fr">J'apporte la rigueur des mathématiques appliquées à la mécanique des fluides, pour travailler sur la recherche aérospatiale et astrophysique, et sur les décisions qui l'entourent.</span></p>
+      <nav class="cp-index" aria-label="Career Project contents">
+        <a href="#career-goals"><span data-l="en">Goals &amp; plans</span><span data-l="fr">Objectifs et plans</span></a>
+        <a href="#career-video"><span data-l="en">Video pitch</span><span data-l="fr">Pitch vidéo</span></a>
+        <a href="#career-docs">CV &amp; LinkedIn</a>
+        <a href="#career-models"><span data-l="en">Role models</span><span data-l="fr">Rôles modèles</span></a>
+        <a href="#mobility"><span data-l="en">Mobility</span><span data-l="fr">Mobilité</span></a>
+      </nav>
+    </div>
+
+    <div class="block reveal" id="career-goals">
+      <div class="block-head"><p class="eyebrow"><span data-l="en">Goals &amp; plans</span><span data-l="fr">Objectifs et plans</span></p><h3 class="h3"><span data-l="en">Where I am going</span><span data-l="fr">Où je vais</span></h3></div>
+      <div class="goals">
+        <div class="goal"><div class="tl-date"><span data-l="en">2026–27</span><span data-l="fr">2026–27</span></div><p><span data-l="en">Master the core of fluid mechanics; first internship in summer 2027.</span><span data-l="fr">Maîtriser les bases de la mécanique des fluides ; premier stage à l'été 2027.</span></p></div>
+        <div class="goal"><div class="tl-date">2027–29</div><p><span data-l="en">Aerodynamics track, then choose: research master DET or a Sciences Po master. 17 weeks abroad.</span><span data-l="fr">Parcours aérodynamique, puis un choix : master recherche DET ou master de Sciences Po. 17 semaines à l'étranger.</span></p></div>
+        <div class="goal"><div class="tl-date">2029+</div><p><span data-l="en">A PhD in Toulouse, or a strategy role in the space and aviation sector.</span><span data-l="fr">Une thèse à Toulouse, ou un poste de stratégie dans le spatial et l'aéronautique.</span></p></div>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <span class="mono">PLAN A · <span data-l="en">RESEARCH</span><span data-l="fr">RECHERCHE</span></span>
+          <strong><span data-l="en">Engineer, research master, PhD</span><span data-l="fr">Ingénieur, master recherche, thèse</span></strong>
+          <p><span data-l="en">Master DET in double degree (with ISAE-SUPAERO students), then a PhD at IMFT, ONERA or CERFACS.</span><span data-l="fr">Master DET en double diplôme (avec les élèves d'ISAE-SUPAERO), puis une thèse à l'IMFT, l'ONERA ou au CERFACS.</span></p>
+        </div>
+        <div class="plan">
+          <span class="mono">PLAN B · <span data-l="en">SCIENCE &amp; POLICY</span><span data-l="fr">SCIENCE &amp; DÉCISION</span></span>
+          <strong><span data-l="en">Engineer and Sciences Po</span><span data-l="fr">Ingénieur et Sciences Po</span></strong>
+          <p><span data-l="en">ENSEEIHT is a Sciences Po partner school: direct admission interview for its two-year masters. Target: ESA, CNES, ministries.</span><span data-l="fr">L'N7 est école partenaire de Sciences Po : entretien d'admission direct pour ses masters en deux ans. Cible : ESA, CNES, ministères.</span></p>
+        </div>
+        <div class="plan">
+          <span class="mono">PLAN C · <span data-l="en">INDUSTRY</span><span data-l="fr">INDUSTRIE</span></span>
+          <strong><span data-l="en">Aerodynamics R&amp;D engineer</span><span data-l="fr">Ingénieur R&amp;D en aérodynamique</span></strong>
+          <p><span data-l="en">FEP-AERO option and an internship at an MF2E partner such as Airbus or Safran.</span><span data-l="fr">Option FEP-AERO et stage chez un partenaire de MF2E comme Airbus ou Safran.</span></p>
+        </div>
+      </div>
+      <p class="src"><a href="https://www.sciencespo.fr/admissions/fr/master/procedure-francaise/conventions" target="_blank" rel="noopener">Sciences Po, conventions</a> · <a href="https://www.enseeiht.fr/fr/formation/masters/mecanique-energetique-et-procedes-det.html" target="_blank" rel="noopener">Master DET</a> · <a href="https://www.enseeiht.fr/fr/formation/doctorats.html" target="_blank" rel="noopener">ENSEEIHT, Doctorats</a></p>
+    </div>
+
+    <div class="block reveal" id="career-video">
+      <div class="split">
+        <div class="block-head">
+          <p class="eyebrow"><span data-l="en">Video pitch</span><span data-l="fr">Pitch vidéo</span></p>
+          <h3 class="h3">Tell me about yourself</h3>
+          <p class="prose"><span data-l="en">2–3 minutes in English: now, past, future.</span><span data-l="fr">2 à 3 minutes en anglais : présent, passé, futur.</span></p>
+          <a class="more" data-video-link href="#" target="_blank" rel="noopener" hidden><span data-l="en">Open on YouTube</span><span data-l="fr">Ouvrir sur YouTube</span></a>
+        </div>
+        <div class="video" data-video>
+          <div class="video-inner" data-video-ready hidden>
+            <button class="play" type="button" aria-label="Play the video pitch"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4v16l14-8z" fill="currentColor"/></svg></button>
+            <span class="mono"><span data-l="en">Plays from YouTube on click</span><span data-l="fr">Lecture YouTube au clic</span></span>
+          </div>
+          <div class="video-inner" data-video-pending>
+            <span class="mono"><span data-l="en">Video pitch · English</span><span data-l="fr">Pitch vidéo · anglais</span></span>
+            <strong><span data-l="en">Online for the 1 November 2026 submission.</span><span data-l="fr">En ligne pour le dépôt du 1er novembre 2026.</span></strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block reveal" id="career-docs">
+      <div class="block-head"><p class="eyebrow">CV &amp; LinkedIn</p><h3 class="h3"><span data-l="en">In English and French</span><span data-l="fr">En anglais et en français</span></h3></div>
+      <div class="docs-grid">
+        <a class="doc-tile" data-link="cvEN" href="#"><span class="mono">PDF</span><strong>CV · English</strong></a>
+        <a class="doc-tile" data-link="cvFR" href="#"><span class="mono">PDF</span><strong>CV · Français</strong></a>
+        <a class="doc-tile" data-link="linkedinEN" href="#"><span class="mono">LinkedIn</span><strong>Profile · English</strong></a>
+        <a class="doc-tile" data-link="linkedinFR" href="#"><span class="mono">LinkedIn</span><strong>Profil · Français</strong></a>
+      </div>
+    </div>
+
+    <div class="block reveal" id="career-models">
+      <div class="block-head">
+        <p class="eyebrow"><span data-l="en">Role models</span><span data-l="fr">Rôles modèles</span></p>
+        <h3 class="h3"><span data-l="en">One path for each of my plans</span><span data-l="fr">Un parcours pour chacun de mes plans</span></h3>
+        <p class="prose"><span data-l="en">Analysed from official public biographies.</span><span data-l="fr">Analysés à partir de biographies officielles.</span></p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="badge"><span data-l="en">Plan A · Research</span><span data-l="fr">Plan A · Recherche</span></span>
+          <h3>Thierry Poinsot</h3>
+          <p class="sub"><span data-l="en">CNRS researcher, IMFT and CERFACS · Toulouse</span><span data-l="fr">Chercheur CNRS, IMFT et CERFACS · Toulouse</span></p>
+          <dl class="kv">
+            <div><dt><span data-l="en">Path</span><span data-l="fr">Parcours</span></dt><dd><span data-l="en">École Centrale Paris; postdoc at Stanford's Center for Turbulence Research; member of the French Academy of Sciences.</span><span data-l="fr">École Centrale Paris ; postdoctorat au Center for Turbulence Research de Stanford ; membre de l'Académie des sciences.</span></dd></div>
+            <div><dt><span data-l="en">Key skills</span><span data-l="fr">Compétences clés</span></dt><dd><span data-l="en">Turbulent combustion in aero engines, high-performance computing.</span><span data-l="fr">Combustion turbulente des moteurs aéronautiques, calcul haute performance.</span></dd></div>
+            <div><dt><span data-l="en">What I take</span><span data-l="fr">Ce que j'en retiens</span></dt><dd><span data-l="en">Simulation bridges mathematics and real engines; an early stay abroad shaped his career.</span><span data-l="fr">La simulation relie les mathématiques aux vrais moteurs ; un séjour précoce à l'étranger a structuré sa carrière.</span></dd></div>
+            <div><dt><span data-l="en">Impact on my project</span><span data-l="fr">Impact sur mon projet</span></dt><dd><strong><span data-l="en">MSN or FEP-AERO option, research project in 2A, research internship abroad.</span><span data-l="fr">Option MSN ou FEP-AERO, projet recherche en 2A, stage de recherche à l'étranger.</span></strong></dd></div>
+          </dl>
+          <p class="src"><a href="https://www.academie-sciences.fr/pdf/membre/Poinsot_Thierry.pdf" target="_blank" rel="noopener">Académie des sciences</a></p>
+        </article>
+        <article class="card">
+          <span class="badge"><span data-l="en">Plan B · Science &amp; policy</span><span data-l="fr">Plan B · Science &amp; décision</span></span>
+          <h3>Géraldine Naja</h3>
+          <p class="sub"><span data-l="en">Director of Space Transportation, ESA · Paris</span><span data-l="fr">Directrice du Transport spatial, ESA · Paris</span></p>
+          <dl class="kv">
+            <div><dt><span data-l="en">Path</span><span data-l="fr">Parcours</span></dt><dd><span data-l="en">École polytechnique, ENSTA, then a political-science master at Sciences Po; at ESA since 1987, from operations to space policy.</span><span data-l="fr">Polytechnique, ENSTA, puis un master de science politique à Sciences Po ; à l'ESA depuis 1987, des opérations à la politique spatiale.</span></dd></div>
+            <div><dt><span data-l="en">Key skills</span><span data-l="fr">Compétences clés</span></dt><dd><span data-l="en">Propulsion, policy analysis, European negotiation.</span><span data-l="fr">Propulsion, analyse des politiques publiques, négociation européenne.</span></dd></div>
+            <div><dt><span data-l="en">What I take</span><span data-l="fr">Ce que j'en retiens</span></dt><dd><span data-l="en">Sciences Po led her back to technical leadership, at the head of Europe's launchers.</span><span data-l="fr">Sciences Po l'a ramenée à la direction technique, à la tête des lanceurs européens.</span></dd></div>
+            <div><dt><span data-l="en">Impact on my project</span><span data-l="fr">Impact sur mon projet</span></dt><dd><strong><span data-l="en">Prepare a Sciences Po application in 2A; aim for an ESA internship.</span><span data-l="fr">Préparer une candidature à Sciences Po en 2A ; viser un stage à l'ESA.</span></strong></dd></div>
+          </dl>
+          <p class="src"><a href="https://www.esa.int/About_Us/Geraldine_Naja_br_Director_of_Space_Transportation" target="_blank" rel="noopener">ESA</a></p>
+        </article>
+        <article class="card">
+          <span class="badge"><span data-l="en">Aerospace &amp; astrophysics</span><span data-l="fr">Aérospatial &amp; astrophysique</span></span>
+          <h3>Arnaud Prost</h3>
+          <p class="sub"><span data-l="en">ESA reserve astronaut, flight test engineer</span><span data-l="fr">Astronaute de réserve de l'ESA, ingénieur d'essais en vol</span></p>
+          <dl class="kv">
+            <div><dt><span data-l="en">Path</span><span data-l="fr">Parcours</span></dt><dd><span data-l="en">Prépa, École polytechnique, ISAE-SUPAERO and a master in astrophysics in Toulouse (2017); research at NASA JPL; first flight planned for 2027.</span><span data-l="fr">Prépa, Polytechnique, ISAE-SUPAERO et un master d'astrophysique à Toulouse (2017) ; recherche au JPL de la NASA ; premier vol prévu en 2027.</span></dd></div>
+            <div><dt><span data-l="en">Key skills</span><span data-l="fr">Compétences clés</span></dt><dd><span data-l="en">Space systems, astrophysics, test flying.</span><span data-l="fr">Systèmes spatiaux, astrophysique, essais en vol.</span></dd></div>
+            <div><dt><span data-l="en">What I take</span><span data-l="fr">Ce que j'en retiens</span></dt><dd><span data-l="en">Engineering and astrophysics can be combined, in Toulouse.</span><span data-l="fr">Ingénierie et astrophysique se combinent, à Toulouse.</span></dd></div>
+            <div><dt><span data-l="en">Impact on my project</span><span data-l="fr">Impact sur mon projet</span></dt><dd><strong><span data-l="en">Explore the astrophysics master ASEP, whose M2 is largely taught at ISAE-SUPAERO.</span><span data-l="fr">Explorer le master d'astrophysique ASEP, dont le M2 est largement enseigné à ISAE-SUPAERO.</span></strong></dd></div>
+          </dl>
+          <p class="src"><a href="https://cnes.fr/dossiers/arnaud-prost" target="_blank" rel="noopener">CNES</a> · <a href="https://www.polytechnique.edu/en/news/arnaud-prost-x2012-space-mission-2027" target="_blank" rel="noopener">École polytechnique</a></p>
+        </article>
+      </div>
+    </div>
+
+    <div class="block reveal">
+      <div class="block-head"><p class="eyebrow"><span data-l="en">Experience</span><span data-l="fr">Expériences</span></p><h3 class="h3"><span data-l="en">Student jobs</span><span data-l="fr">Jobs étudiants</span></h3></div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-date"><span data-l="en">2024 – now</span><span data-l="fr">2024 – auj.</span></div><div class="tl-body"><h4><span data-l="en">Private tutor, maths &amp; physics</span><span data-l="fr">Cours particuliers, maths et physique</span></h4><p><span data-l="en">From middle school to first-year CPGE (MP, ECG): diagnose, explain, train.</span><span data-l="fr">Du collège à la première année de prépa (MP, ECG) : diagnostiquer, expliquer, entraîner.</span></p></div></div>
+        <div class="tl-item"><div class="tl-date">2019 – 2024</div><div class="tl-body"><h4>Babysitting</h4><p><span data-l="en">Regular childcare, from middle school to my first year of prépa.</span><span data-l="fr">Garde d'enfants régulière, du collège à ma première année de prépa.</span></p></div></div>
+        <div class="tl-item"><div class="tl-date"><span data-l="en">Summer 2027</span><span data-l="fr">Été 2027</span></div><div class="tl-body"><h4><span data-l="en">First engineering internship</span><span data-l="fr">Premier stage d'ingénieur</span></h4><p><span data-l="en">Search in progress.</span><span data-l="fr">Recherche en cours.</span></p></div></div>
+      </div>
+    </div>
+
+    <div class="block reveal">
+      <div class="block-head"><p class="eyebrow"><span data-l="en">Skills</span><span data-l="fr">Compétences</span></p><h3 class="h3"><span data-l="en">What I can prove</span><span data-l="fr">Ce que je peux prouver</span></h3></div>
+      <div class="skills">
+        <div class="skill"><h4><span data-l="en">Mathematics</span><span data-l="fr">Mathématiques</span></h4><p><span data-l="en">Fourier analysis, probability, complexity. Proof: two TIPE.</span><span data-l="fr">Analyse de Fourier, probabilités, complexité. Preuve : deux TIPE.</span></p></div>
+        <div class="skill"><h4><span data-l="en">Programming</span><span data-l="fr">Programmation</span></h4><p>Python (NumPy, SciPy, Pandas), C, OCaml, LaTeX.</p></div>
+        <div class="skill"><h4><span data-l="en">Explaining</span><span data-l="fr">Transmettre</span></h4><p><span data-l="en">Making hard ideas clear. Proof: tutoring up to prépa level.</span><span data-l="fr">Rendre claire une idée difficile. Preuve : cours jusqu'au niveau prépa.</span></p></div>
+        <div class="skill"><h4><span data-l="en">Adaptability</span><span data-l="fr">Adaptabilité</span></h4><p><span data-l="en">Poitiers, Bordeaux, then Toulouse in four years; volunteering in a crisis.</span><span data-l="fr">Poitiers, Bordeaux puis Toulouse en quatre ans ; bénévolat en situation de crise.</span></p></div>
+      </div>
+    </div>
+
+    <p class="note reveal"><span data-l="en">This portfolio grows with my studies: launch (S5–S6), upgrade (S7–S8), validation before a jury (S9–S10).</span><span data-l="fr">Ce portfolio évolue avec mes études : lancement (S5–S6), enrichissement (S7–S8), validation devant un jury (S9–S10).</span></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Lucas Da Dalt · ePortfolio v2</span>
+    <span><span data-l="en">No cookies, no trackers, fonts hosted with the site.</span><span data-l="fr">Ni cookies ni traceurs, polices hébergées avec le site.</span></span>
+    <span><a data-link="linkedinEN" data-link-fr="linkedinFR" href="#">LinkedIn</a><span data-email-row hidden> · <span data-email></span></span></span>
+  </div>
+</footer>
+</body>
+</html>
